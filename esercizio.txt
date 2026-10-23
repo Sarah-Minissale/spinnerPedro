@@ -1,0 +1,31 @@
+SPINNER PEDRO  -> Ricreare uno spinner con un immagine all interno : 
+
+l applicazione dovrà avere 3 bottoni, START , STOP e PAUSE(bonus)
+ed un immagine in un div rotondo
+che ruoterà in un loop infinito in un div sopra questi bottoni
+
+cliccando start, partirà una canzone, 
+e l immagine inizierà a ruotare in senso orario
+
+cliccando stop, la canzone si fermerà 
+e l immagine smetterà di ruotare
+
+quando premo start, il bottone start si disabilita e si abilita il pulsante stop
+e viceversa, quando premo stop, si riabiliterà il pulsante start
+
+//suggerimenti : cercare per HTML : TAG <audio> scaricati in locale o url 
+                 rotazione CSS div img : trasform animation loop 360deg
+
+                 PER I PULSANTI JS (addEventListeners)
+                    .stop
+                    .start
+                    .pause
+                    .enabled
+                    .disabled
+                    currentIndex
+
+//BONUS
+
+il tasto pause verrà abilitato solo quando la canzone è in riproduzione
+cliccando pause, la canzone si fermerà ad un punto, come l immagine
+se cliccando ancora una volta pause, riprenderà
