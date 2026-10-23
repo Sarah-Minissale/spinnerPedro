@@ -8,10 +8,45 @@
             rel="stylesheet"
             href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
         />
+        <link rel="stylesheet" href="style.css" />
     </head>
     <body>
-        <h1>Spinner Pedro</h1>
+        <!-- TITOLO -->
+        <h1 class="d-flex justify-content-center align-items-center">
+            Spinner Pedro
+        </h1>
 
+        <!-- CONTAINER + IMMAGINE SFONDO + IMMAGINE PROCIONE -->
+        <div
+            id="cntSpinner"
+            class="spinner-container d-flex justify-content-center align-items-center mt-4 mx-auto"
+        >
+            <img class="spirale_img" src="./img/spirale.jpg" alt="" />
+
+            <img
+                class="procione_img"
+                src="./img/pedroPedro.png"
+                alt="immagine di un procione"
+            />
+        </div>
+
+        <!-- BOTTONI -->
+
+        <div class="d-flex justify-content-center align-content-center">
+            <button id="startButton" type="button" class="btn btn-outline-dark">
+                Start
+            </button>
+
+            <button id="stopButton" type="button" class="btn btn-outline-dark">
+                Stop
+            </button>
+
+            <button id="pausaButton" type="button" class="btn btn-outline-dark">
+                Pausa
+            </button>
+        </div>
+
+        <script src="main.js"></script>
         <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     </body>
 </html>

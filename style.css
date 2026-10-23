@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.spinner-container {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: rgb(131, 131, 133);
+    position: relative;
+    overflow: hidden;
+    animation: ruotaContinuo 1s linear /* infinite */;
+}
+
+/* Definizione dei movimenti con i Keyframes */
+.rotate {
+    animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.spirale_img {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    object-fit: cover;
+    z-index: 1;
+    filter: blur(3px);
+}
+
+.procione_img {
+    position: absolute;
+    inset: 0;
+    width: 320px;
+    height: 320px;
+    object-fit: contain;
+    z-index: 2;
+}
+
+.spirale-img,
+.procione-img {
+    position: absolute;
+    inset: 0;
+}
+
+button {
+    margin: 15px 10px 0 0;
+}
