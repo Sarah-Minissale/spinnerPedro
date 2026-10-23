@@ -9,16 +9,16 @@ Ricreare uno spinner con un immagine all interno :
 [x]   cliccando start, partirà una canzone, 
 [x]   e l immagine inizierà a ruotare in senso orario
 
-[]   cliccando stop, la canzone si fermerà 
-   e l immagine smetterà di ruotare
+[x]   cliccando stop, la canzone si fermerà 
+[x]   e l immagine smetterà di ruotare
 
-   quando premo start, il bottone start si disabilita e si abilita il pulsante stop
-   e viceversa, quando premo stop, si riabiliterà il pulsante start
+[x]   quando premo start, il bottone start si disabilita e si abilita il pulsante stop
+[x]   e viceversa, quando premo stop, si riabiliterà il pulsante start
 
    //suggerimenti : cercare per HTML : TAG <audio> scaricati in locale o url 
                   rotazione CSS div img : trasform animation loop 360deg
 
-                  PER I PULSANTI JS (addEventListeners)
+                  PER I PULSANTI JS (addEventListeners)                   
                      .stop
                      .start
                      .pause
@@ -26,7 +26,7 @@ Ricreare uno spinner con un immagine all interno :
                      .disabled
                      currentIndex
 
-   //BONUS
+[x]   //BONUS
 
    il tasto pause verrà abilitato solo quando la canzone è in riproduzione
    cliccando pause, la canzone si fermerà ad un punto, come l immagine

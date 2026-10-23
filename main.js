@@ -1,9 +1,4 @@
-/* 
-[] cliccando start, partirà una canzone.
-    passaggi:
-    [x]  variabile con audio (-> cerca come si inserisce un audio mp3 in js)
-    [x]  crea variabile che riprende il bottone per avviare, stoppare e mettere in pausa la canzone ()
-*/
+//ESERCIZIO SPINNER
 
 // variabile con elemento audio
 const music = new Audio("./mp3/music.mp3");
