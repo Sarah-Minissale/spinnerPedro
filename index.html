@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Spinner_Pedro</title>
+        <title>Spinner_Procione</title>
         <link
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
@@ -11,40 +11,56 @@
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
-        <!-- TITOLO -->
-        <h1 class="d-flex justify-content-center align-items-center">
-            Spinner Pedro
-        </h1>
+        <main class="app-container">
+            <!-- TITOLO -->
+            <h1 class="d-flex justify-content-center align-items-center">
+                Spinner Pedro
+            </h1>
 
-        <!-- CONTAINER + IMMAGINE SFONDO + IMMAGINE PROCIONE -->
-        <div
-            id="cntSpinner"
-            class="spinner-container d-flex justify-content-center align-items-center mt-4 mx-auto"
-        >
-            <img class="spirale_img" src="./img/spirale.jpg" alt="" />
+            <!-- CONTAINER + IMMAGINE SFONDO + IMMAGINE PROCIONE -->
+            <div
+                id="cntSpinner"
+                class="spinner-container d-flex justify-content-center align-items-center mt-4 mx-auto"
+            >
+                <img class="spirale_img" src="./img/spirale.jpg" alt="" />
 
-            <img
-                class="procione_img"
-                src="./img/pedroPedro.png"
-                alt="immagine di un procione"
-            />
-        </div>
+                <img
+                    class="procione_img"
+                    src="./img/pedroPedro.png"
+                    alt="immagine di un procione"
+                />
+            </div>
 
-        <!-- BOTTONI -->
+            <!-- BOTTONI -->
 
-        <div class="d-flex justify-content-center align-content-center">
-            <button id="startButton" type="button" class="btn btn-outline-dark">
-                Start
-            </button>
+            <div
+                class="buttons-container d-flex justify-content-center align-items-center"
+            >
+                <button
+                    id="startButton"
+                    type="button"
+                    class="btn btn-outline-dark"
+                >
+                    Start
+                </button>
 
-            <button id="stopButton" type="button" class="btn btn-outline-dark">
-                Stop
-            </button>
+                <button
+                    id="stopButton"
+                    type="button"
+                    class="btn btn-outline-dark"
+                >
+                    Stop
+                </button>
 
-            <button id="pausaButton" type="button" class="btn btn-outline-dark">
-                Pausa
-            </button>
-        </div>
+                <button
+                    id="pausaButton"
+                    type="button"
+                    class="btn btn-outline-dark"
+                >
+                    Pausa
+                </button>
+            </div>
+        </main>
 
         <script src="main.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
