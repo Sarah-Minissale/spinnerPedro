@@ -14,6 +14,7 @@ pausaButton.addEventListener("click", pausaMusic);
 
 const cntSpinner = document.getElementById("cntSpinner");
 
+startButton.enabled = false;
 stopButton.disabled = true;
 pausaButton.disabled = true;
 
@@ -34,7 +35,7 @@ function startMusic() {
     //far partire lo spinner
     cntSpinner.classList.add("rotate");
 
-    //lo specifico qui perchè quando non c'era qui in questa funzione ma era nell'if della funzione pausa e premevo start lo spinner rimaneva bloccato
+    //lo specifico qui perchè quando non l'ho messo qui in questa funzione ma era nell'if della funzione pausaMusic e premevo start lo spinner rimaneva bloccato
     cntSpinner.style.animationPlayState = "running";
 }
 
